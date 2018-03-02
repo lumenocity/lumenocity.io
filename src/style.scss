@@ -1,5 +1,7 @@
 $primary: #21E692;
 $link: darken($primary, 10%);
+$family-serif: 'Clear Sans', sans-serif;
+$family-primary: $family-serif;
 
 @import "../node_modules/bulma/bulma.sass";
 
@@ -31,4 +33,17 @@ $link: darken($primary, 10%);
       padding: 10px;
     }
   }
+}
+
+.bouncy-chevron {
+  animation: bounce 1s infinite;
+  //position: relative;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 4em;
+  height: 4em;
+}
+
+.bouncy-chevron i, .bouncy-chevron svg {
+  font-size: 4em;
 }
