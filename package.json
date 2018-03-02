@@ -1,0 +1,22 @@
+{
+  "name": "lumenocity-io",
+  "version": "1.0.0",
+  "description": "Website for the Lumenocity.io project",
+  "main": "index.js",
+  "author": "mtimofiiv <github@fiiv.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@taskr/babel": "^1.1.0",
+    "@taskr/flatten": "^1.1.0",
+    "@taskr/htmlmin": "^1.1.0",
+    "@taskr/sass": "^1.1.0",
+    "@taskr/shell": "^1.1.0",
+    "@taskr/uglify": "^1.1.0",
+    "@taskr/watch": "^1.1.0",
+    "babel-preset-env": "^1.6.1",
+    "bulma": "^0.6.2",
+    "pushserve": "^1.0.2",
+    "taskr": "^1.1.0",
+    "taskr-autoprefixer": "^1.0.0"
+  }
+}
