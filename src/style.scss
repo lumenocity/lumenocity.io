@@ -47,3 +47,19 @@ $family-primary: $family-serif;
 .bouncy-chevron i, .bouncy-chevron svg {
   font-size: 4em;
 }
+
+.spaced {
+  margin: 40px 0;
+}
+
+#why-wallet-content {
+  .icon {
+    font-size: 4em;
+    height: 3em;
+  }
+
+  p {
+    margin: 10px 0;
+    padding: 0 5px;
+  }
+}

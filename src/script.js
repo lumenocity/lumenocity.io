@@ -1,5 +1,3 @@
-'use strict';
-
 function scrollToWhy() {
   document.getElementById('why-lumenocity').scrollIntoView({
     behavior: 'smooth'

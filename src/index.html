@@ -20,12 +20,14 @@
     <section class="hero is-fullheight is-bold is-primary">
       <div class="hero-head">
         <nav class="navbar">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+              <img src="icon-inverse.svg" alt="Lumenocity" width="28" height="28">
+            </a>
+          </div>
           <div class="container">
             <div class="navbar-menu">
               <div class="navbar-end">
-                <a class="navbar-item scroll-to-why">
-                  Why Lumenocity?
-                </a>
                 <a class="navbar-item" href="https://github.com/lumenocity">
                   <span class="icon"><i class="fab fa-github fa-fw"></i></span>
                 </a>
@@ -40,14 +42,9 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns">
-            <div class="column is-one-third">
-              <figure class="image is-square">
-                <img src="icon-inverse.svg">
-              </figure>
-            </div>
             <div class="column">
               <h1 class="title is-1">
-                Introducing Lumenocity
+                Lumenocity
               </h1>
               <p class="subtitle is-3">
                 Lumenocity is a new wallet for the Stellar network.
@@ -64,43 +61,149 @@
       </div>
     </section>
 
-    <section class="section" id="why-lumenocity">
+    <section class="hero is-dark" id="why-wallet">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title">
+            <i class="fas fa-fw fa-chevron-right"></i>
+            Why use a wallet?
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why-wallet-content">
       <div class="container">
-        <h1 class="title">Why Lumenocity?</h1>
+        <h3 class="is-size-2 has-text-centered has-text-primary">Cryptocurrencies are a type of money.</h3>
+        <h4 class="is-size-3 has-text-centered">There are many reasons to transfer your XLM from an exchange account and into one of your own. You can use Lumenocity to make managing this account just as easy as having it at an exchange!</h4>
+
+        <div class="columns spaced">
+          <div class="column has-text-centered">
+            <h5 class="is-size-4 has-text-centered has-text-primary">
+              Security
+            </h5>
+            <span class="icon has-text-danger">
+              <i class="fas fa-user-secret"></i>
+            </span>
+            <p class="is-size-5">
+              Keeping your XLM in a exchange means you are keeping it in a massive account run by them, with all the other hodlers. This makes exchanges a perfect target for hackers since the balances on those accounts are so high.
+            </p>
+            <p class="is-size-5">
+              Keep your XLM in your own account, locked by your own keys. Access it from Lumenocity on your iPhone or Android device.
+            </p>
+          </div>
+          <div class="column has-text-centered">
+            <h5 class="is-size-4 has-text-centered has-text-primary">
+              Portability
+            </h5>
+            <span class="icon has-text-grey-light">
+              <i class="fas fa-fw fa-plane"></i>
+            </span>
+            <p class="is-size-5">
+              You always control your own access keys to your account on the Stellar blockchain. You can open your account on as many devices and wallets as you want. You retain full control.
+            </p>
+            <p class="is-size-5">
+              Create accounts for different purposes, transfer funds between them, all from anywhere. Lumenocity lets you do all that from your phone.
+            </p>
+          </div>
+          <div class="column has-text-centered">
+            <h5 class="is-size-4 has-text-centered has-text-primary">
+              Earn free XLM
+            </h5>
+            <span class="icon has-text-warning">
+              <i class="fas fa-fw fa-money-bill-alt"></i>
+            </span>
+            <p class="is-size-5">Stellar's network has a re-distribution mechanism referred to as <a href="https://www.stellar.org/developers/guides/concepts/inflation.html">inflation</a>. You can use it to have free XLM sent to you every week.</p>
+            <p class="is-size-5">
+              In Lumenocity, setting up an inflation pool takes 2 clicks. The following week, you will start receiving free XLM!
+            </p>
+          </div>
+        </ul>
         
+        <!-- <div class="columns">
+          <div class="column">
+            <a class="image screenshot" href="screenshot-ios-accounts.png">
+              <img src="screenshot-ios-accounts.png">
+            </a>
+          </div>
+          <div class="column">
+            <a class="image screenshot" href="screenshot-ios-transactions.png">
+              <img src="screenshot-ios-transactions.png">
+            </a>
+          </div>
+          <div class="column">
+            <a class="image screenshot" href="screenshot-ios-transaction.png">
+              <img src="screenshot-ios-transaction.png">
+            </a>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="hero is-dark" id="why-lumenocity">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title">
+            <i class="fas fa-fw fa-chevron-right"></i>
+            Why Lumenocity?
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">        
         <div class="columns feature-block-container first-row">
           <div class="column feature-block">
             <span class="icon is-size-1 has-text-primary"><i class="fas fa-users fa-fw"></i></span>
-            <h2 class="subtitle is-4">User friendly design</h2>
+            <h3 class="subtitle is-4">User friendly design</h3>
             <p>Lumenocity is designed to feel more like a banking app than a crypto wallet.</p>
           </div>
           <div class="column feature-block">
             <span class="icon is-size-1 has-text-primary"><i class="fas fa-code fa-fw"></i></span>
-            <h2 class="subtitle is-4">Open source</h2>
+            <h3 class="subtitle is-4">Open source</h3>
             <p>Feel secure knowing that at any time, <a href="https://github.com/lumenocity">you can verify exactly what the app does</a>.</p>
           </div>
           <div class="column feature-block">
             <span class="icon is-size-1 has-text-primary"><i class="fas fa-at fa-fw"></i></span>
-            <h2 class="subtitle is-4">Federated by Default</h2>
+            <h3 class="subtitle is-4">Federated by Default</h3>
             <p>Why struggle with long addresses when a simple <strong>you*lumenocity.io</strong> will do?</p>
           </div>
         </div>
         <div class="columns feature-block-container">
           <div class="column feature-block">
             <span class="icon is-size-1 has-text-primary"><i class="fas fa-money-bill-alt fa-fw"></i></span>
-            <h2 class="subtitle is-4">Built in inflation pools</h2>
+            <h3 class="subtitle is-4">Built in inflation pools</h3>
             <p>Stellar's inflation is literally free XLM. Take advantage of it immediately.</p>
           </div>
           <div class="column feature-block">
             <span class="icon is-size-1 has-text-primary"><i class="fas fa-qrcode fa-fw"></i></span>
-            <h2 class="subtitle is-4">Scan anything</h2>
+            <h3 class="subtitle is-4">Scan anything</h3>
             <p>Lumenocity supports QR codes generated from many popular Stellar wallets.</p>
           </div>
           <div class="column feature-block">
             <span class="icon is-size-1 has-text-primary"><i class="fas fa-exchange-alt fa-fw"></i></span>
-            <h2 class="subtitle is-4">Multiple accounts and assets*</h2>
+            <h3 class="subtitle is-4">Multiple accounts and assets*</h3>
             <p>Add as many Stellar accounts as you want, and receive any asset (soon pay with them as well)</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title">
+            <i class="fas fa-fw fa-chevron-right"></i>
+            Shut up and take my money...
+          </h2>
+          <h3 class="subtitle">
+            ...well, actually, it's <strong>free</strong>
+          </h3>
+
+          <p class="subtitle is-5">
+            Lumenocity is not ready yet. It will launch in app stores in a few days. In the meantime, <strong><a href="https://t.me/lumenocity_wallet">join the Telegram group</a></strong> for updates!
+          </p>
         </div>
       </div>
     </section>
@@ -115,7 +218,7 @@
       </div>
     </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.3.5/smoothscroll.min.js"></script>
-  <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iamdustan-smoothscroll/0.3.5/smoothscroll.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
