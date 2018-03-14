@@ -8,7 +8,7 @@ function scrollTo(selector) {
 
 function init() {
   for (const el of document.querySelectorAll('.scroll-to-why')) {
-    el.addEventListener('click', scrollTo('why-wallet-content'));
+    el.addEventListener('click', scrollTo('why-wallet'));
   }
 
   for (const el of document.querySelectorAll('.scroll-to-get')) {

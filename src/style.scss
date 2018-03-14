@@ -24,7 +24,7 @@ $family-primary: $family-serif;
     &:first-child {
       border-left: 0;
     }
-  
+
     .icon {
       padding: 40px 0;
     }
@@ -50,6 +50,14 @@ $family-primary: $family-serif;
 
 .spaced {
   margin: 40px 0;
+}
+
+.read-more {
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2em;
 }
 
 #why-wallet-content {
