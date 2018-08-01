@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
 npm run build
+mkdir ./build/.well-known
+cp ./federation/stellar.toml ./build/.well-known/stellar.toml
