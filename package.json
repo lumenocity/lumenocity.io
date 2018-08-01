@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "mtimofiiv <github@fiiv.io>",
   "license": "MIT",
+  "scripts": {
+    "build": "taskr build",
+    "start": "taskr watch"
+  },
   "dependencies": {
     "@taskr/babel": "^1.1.0",
     "@taskr/flatten": "^1.1.0",
